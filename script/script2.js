@@ -18,11 +18,11 @@ const squadreCalcio = [
     return Math.floor(Math.random() * (max - min + 1)) + min;
 
   }
-
+1
 
   for (let i = 0; i < squadreCalcio.length; i++){
 
-    squadreCalcio[i]['puntiFatti'] = numeroRandom(0, 100);
+    squadreCalcio[i].puntiFatti = numeroRandom(0, 100);
     squadreCalcio[i]['falliSubiti'] = numeroRandom(0, 50);
  
  }
